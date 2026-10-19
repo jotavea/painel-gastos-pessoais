@@ -15,9 +15,9 @@ O painel abre no navegador usando os dados de `exemplo_gastos.csv`. Envie seu pr
 
 ## Publicar no Streamlit Community Cloud
 
-1. Envie este repositório ao GitHub.
-2. Entre em [share.streamlit.io](https://share.streamlit.io/) e conecte sua conta GitHub.
-3. Selecione o repositório, a branch `main` e o arquivo `app.py`.
+1. Acesse [share.streamlit.io](https://share.streamlit.io/) e entre com sua conta.
+2. Conecte sua conta GitHub ao Streamlit Community Cloud.
+3. Selecione o repositório `jotavea/painel-gastos-pessoais`, a branch `main` e o arquivo `app.py`.
 4. Publique o app.
 
 ## Importação de dados
@@ -49,3 +49,4 @@ Python, Streamlit, Pandas e Plotly.
 ## Privacidade
 
 O app não tem login nem banco remoto. Os dados carregados são processados na sessão do Streamlit; ao hospedar na nuvem, o processamento ocorre na infraestrutura do Streamlit Community Cloud. Não envie extratos com dados sensíveis para uma demonstração pública. Para uma versão pública, prefira arquivos de exemplo anonimizados.
+
