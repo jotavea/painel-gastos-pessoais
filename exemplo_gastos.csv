@@ -1,0 +1,33 @@
+data,descricao,categoria,valor,tipo
+01/01/2026,Salário,Salário,5200,receita
+02/01/2026,Aluguel,Moradia,1800,despesa
+03/01/2026,Supermercado Central,Alimentação,465.80,despesa
+04/01/2026,Uber,Transporte,32.50,despesa
+05/01/2026,Conta de luz,Moradia,145.20,despesa
+07/01/2026,Academia,Saúde,99.90,despesa
+10/01/2026,Restaurante,Alimentação,78.00,despesa
+12/01/2026,Netflix,Lazer,39.90,despesa
+15/01/2026,Curso de Python,Educação,120.00,despesa
+18/01/2026,Farmácia,Saúde,56.40,despesa
+20/01/2026,Posto de gasolina,Transporte,220.00,despesa
+25/01/2026,Loja de roupas,Compras,189.90,despesa
+01/02/2026,Salário,Salário,5200,receita
+02/02/2026,Aluguel,Moradia,1800,despesa
+03/02/2026,Supermercado Central,Alimentação,510.30,despesa
+05/02/2026,Uber,Transporte,41.00,despesa
+07/02/2026,Conta de luz,Moradia,132.80,despesa
+10/02/2026,Restaurante,Alimentação,95.50,despesa
+12/02/2026,Spotify,Lazer,21.90,despesa
+16/02/2026,Consulta médica,Saúde,180.00,despesa
+20/02/2026,Curso de Python,Educação,120.00,despesa
+24/02/2026,Posto de gasolina,Transporte,195.00,despesa
+01/03/2026,Salário,Salário,5200,receita
+02/03/2026,Aluguel,Moradia,1800,despesa
+03/03/2026,Supermercado Central,Alimentação,488.70,despesa
+06/03/2026,Uber,Transporte,36.20,despesa
+09/03/2026,Conta de internet,Moradia,119.90,despesa
+11/03/2026,Cinema,Lazer,64.00,despesa
+15/03/2026,Padaria,Alimentação,28.50,despesa
+18/03/2026,Livro técnico,Educação,85.00,despesa
+22/03/2026,Farmácia,Saúde,43.70,despesa
+26/03/2026,Posto de gasolina,Transporte,210.00,despesa
