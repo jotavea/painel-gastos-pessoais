@@ -146,4 +146,4 @@ st.dataframe(show.rename(columns={"date": "Data", "description": "Descrição", 
 
 csv = filtered.drop(columns=["month", "expense", "income"]).to_csv(index=False, sep=";", decimal=",", encoding="utf-8-sig")
 st.download_button("Exportar transações filtradas", data=csv, file_name="transacoes_filtradas.csv", mime="text/csv")
-st.caption("Os dados ficam no seu computador durante a sessão. Categorias ausentes são sugeridas pelo texto da descrição.")
+st.caption("Os dados são processados apenas durante a sessão e não são armazenados.")
