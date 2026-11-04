@@ -134,8 +134,10 @@ with right:
     st.subheader("Evolução mensal")
     monthly = filtered.groupby("month", as_index=False).agg(Despesas=("expense", "sum"), Receitas=("income", "sum"))
     monthly = monthly.melt(id_vars="month", var_name="Tipo", value_name="Valor")
-    st.plotly_chart(px.bar(monthly, x="month", y="Valor", color="Tipo", barmode="group",
-                           labels={"month": "Mês", "Valor": "Valor (R$)"}), use_container_width=True)
+    fig_monthly = px.bar(monthly, x="month", y="Valor", color="Tipo", barmode="group",
+                         labels={"month": "Mês", "Valor": "Valor (R$)"})
+    fig_monthly.update_xaxes(dtick="M1", tickformat="%b/%Y")
+    st.plotly_chart(fig_monthly, use_container_width=True)
 
 st.subheader("Transações")
 show = filtered.sort_values("date", ascending=False)[["date", "description", "category", "amount"]].copy()
